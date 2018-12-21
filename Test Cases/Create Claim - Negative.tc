@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is intended to fail</description>
+   <name>Create Claim - Negative</name>
+   <tag>Claim</tag>
+   <comment>Logging into GW
+Searching For a Policy
+Clicking on Finish button to create a claim</comment>
+   <testCaseGuid>865fbcbe-1b7d-422e-8a79-0204e6f37c3a</testCaseGuid>
+   <variable>
+      <defaultValue>'su'</defaultValue>
+      <description></description>
+      <id>01a50aa4-aa47-428e-81d3-82c3ec3c2c12</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'gw'</defaultValue>
+      <description></description>
+      <id>46d5c3b4-bdd1-4cfc-be97-692924bf6ab9</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'6566002243511'</defaultValue>
+      <description></description>
+      <id>d0707473-47fe-4e24-b49f-bb94517554cf</id>
+      <masked>false</masked>
+      <name>dk_polNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'3264538'</defaultValue>
+      <description></description>
+      <id>8a376087-3688-4b85-a104-a795edd28aa7</id>
+      <masked>false</masked>
+      <name>no_polNumber</name>
+   </variable>
+</TestCaseEntity>

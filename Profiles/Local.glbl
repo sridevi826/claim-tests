@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Local</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://10.48.27.56:8085/cc/ClaimCenter.do'</initValue>
+      <name>DK_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8566000260900'</initValue>
+      <name>polNumber</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

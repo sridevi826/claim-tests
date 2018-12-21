@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Script to provide values to step 1</description>
+   <name>Step 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29a79338-8c6a-44bb-be4e-fcd6397fc280</testCaseGuid>
+   <variable>
+      <defaultValue>'11111111111111'</defaultValue>
+      <description></description>
+      <id>43bb1326-05ea-4306-baed-0d5f0195d526</id>
+      <masked>false</masked>
+      <name>polNum</name>
+   </variable>
+</TestCaseEntity>

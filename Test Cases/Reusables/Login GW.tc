@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to Guideware</description>
+   <name>Login GW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7d9f847-1dfb-457e-9fb7-05730fd96199</testCaseGuid>
+   <variable>
+      <defaultValue>'su'</defaultValue>
+      <description></description>
+      <id>c9b1b58b-d2e9-421e-a5ff-637776dce3a1</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'gw'</defaultValue>
+      <description></description>
+      <id>7d717db7-2a24-4c08-b101-fb96b36cb0c4</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+</TestCaseEntity>

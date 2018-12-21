@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Claim Suite,Chrome 71.0.3578.98,,2018-12-21 09:40:41,2018-12-21 09:42:07,1m - 25.884s,FAILED
+,,,,,,
+Test Cases/Create Claim,Chrome 71.0.3578.98,This test case will create a claim on an existing policy,2018-12-21 09:40:41,2018-12-21 09:41:13,32.023s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-21 09:40:42,2018-12-21 09:40:45,2.637s,PASSED
+navigateToUrl(DK_URL),Chrome 71.0.3578.98,,2018-12-21 09:40:45,2018-12-21 09:40:47,2.435s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-21 09:40:47,2018-12-21 09:40:47,0.138s,PASSED
+"comment(""Logging into GW"")",Chrome 71.0.3578.98,,2018-12-21 09:40:47,2018-12-21 09:40:47,0.019s,PASSED
+"callTestCase(findTestCase(""Reusables/Login GW""), [""user"":userName, ""pwd"":password], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:40:47,2018-12-21 09:40:48,0.748s,PASSED
+"comment(""Searching For a Policy"")",Chrome 71.0.3578.98,,2018-12-21 09:40:48,2018-12-21 09:40:48,0.001s,PASSED
+"callTestCase(findTestCase(""Reusables/Step 1""), [""polNum"":polNumber], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:40:48,2018-12-21 09:40:50,2.584s,PASSED
+takeScreenshot(),Chrome 71.0.3578.98,,2018-12-21 09:40:50,2018-12-21 09:40:51,0.402s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:40:51,2018-12-21 09:40:51,0.118s,PASSED
+"callTestCase(findTestCase(""Reusables/Step 2""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:40:51,2018-12-21 09:40:56,4.619s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:40:56,2018-12-21 09:40:58,2.642s,PASSED
+"callTestCase(findTestCase(""Reusables/Step 3""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:40:58,2018-12-21 09:41:07,9.096s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:41:07,2018-12-21 09:41:07,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-21 09:41:07,2018-12-21 09:41:08,1.001s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:41:08,2018-12-21 09:41:09,0.090s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-21 09:41:09,2018-12-21 09:41:10,1.001s,PASSED
+"comment(""Clicking on Finish button to create a claim"")",Chrome 71.0.3578.98,,2018-12-21 09:41:10,2018-12-21 09:41:10,0.000s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/dd_Claimant""))",Chrome 71.0.3578.98,,2018-12-21 09:41:10,2018-12-21 09:41:10,0.115s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/li_Test Name""))",Chrome 71.0.3578.98,,2018-12-21 09:41:10,2018-12-21 09:41:10,0.080s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-21 09:41:10,2018-12-21 09:41:11,1.001s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Finish""))",Chrome 71.0.3578.98,,2018-12-21 09:41:11,2018-12-21 09:41:11,0.114s,PASSED
+"getText(findTestObject(""Page_GW_ClaimCenter/label_Claim Created""))",Chrome 71.0.3578.98,,2018-12-21 09:41:11,2018-12-21 09:41:12,1.595s,PASSED
+takeScreenshot(),Chrome 71.0.3578.98,,2018-12-21 09:41:12,2018-12-21 09:41:13,0.335s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-21 09:41:13,2018-12-21 09:41:13,0.653s,PASSED
+,,,,,,
+Test Cases/Create Claim - Negative,Chrome 71.0.3578.98,This test case is intended to fail,2018-12-21 09:41:13,2018-12-21 09:42:06,52.908s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-21 09:41:14,2018-12-21 09:41:15,1.189s,PASSED
+navigateToUrl(DK_URL),Chrome 71.0.3578.98,,2018-12-21 09:41:15,2018-12-21 09:41:17,1.948s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-21 09:41:17,2018-12-21 09:41:17,0.127s,PASSED
+"comment(""Logging into GW"")",Chrome 71.0.3578.98,,2018-12-21 09:41:17,2018-12-21 09:41:17,0.001s,PASSED
+"callTestCase(findTestCase(""Reusables/Login GW""), [""user"":userName, ""pwd"":password], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:41:17,2018-12-21 09:41:17,0.416s,PASSED
+"comment(""Searching For a Policy"")",Chrome 71.0.3578.98,,2018-12-21 09:41:17,2018-12-21 09:41:17,0.001s,PASSED
+"callTestCase(findTestCase(""Reusables/Step 1""), [""polNum"":polNumber], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:41:17,2018-12-21 09:41:19,1.834s,PASSED
+takeScreenshot(),Chrome 71.0.3578.98,,2018-12-21 09:41:19,2018-12-21 09:41:20,0.358s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:41:20,2018-12-21 09:41:20,0.112s,PASSED
+"callTestCase(findTestCase(""Reusables/Step 2""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:41:20,2018-12-21 09:41:23,3.005s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:41:23,2018-12-21 09:41:24,1.681s,PASSED
+"callTestCase(findTestCase(""Reusables/Step 3""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-21 09:41:24,2018-12-21 09:41:33,8.688s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:41:33,2018-12-21 09:41:33,0.090s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-21 09:41:33,2018-12-21 09:41:34,1.000s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Next""))",Chrome 71.0.3578.98,,2018-12-21 09:41:34,2018-12-21 09:41:34,0.084s,PASSED
+"comment(""Clicking on Finish button to create a claim"")",Chrome 71.0.3578.98,,2018-12-21 09:41:34,2018-12-21 09:41:34,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-21 09:41:34,2018-12-21 09:41:35,1.000s,PASSED
+"click(findTestObject(""Page_GW_ClaimCenter/bt_Finish""))",Chrome 71.0.3578.98,,2018-12-21 09:41:35,2018-12-21 09:41:35,0.112s,PASSED
+"getText(findTestObject(""Page_GW_ClaimCenter/label_Claim Created""))",Chrome 71.0.3578.98,,2018-12-21 09:41:35,2018-12-21 09:42:06,31.026s,FAILED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>DEV</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://wencsvmasdev01:8080/cc/ClaimCenter.do'</initValue>
+      <name>DK_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://wencsvmasdev02:8080/cc/ClaimCenter.do'</initValue>
+      <name>NO_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6566002082717'</initValue>
+      <name>polNumber</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Claim Suite" time="90" tests="1" failures="1" errors="0">
+   <testsuite name="Claim Suite" tests="1" failures="1" errors="0" time="90" timestamp="2018-12-21 09:44:52" hostname="TATASAQ - WENCSVMTATASAQ.prd1.prdroot.net" id="Test Suites/Claim Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450"/>
+         <property name="logFiles" value="C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381902801.png, C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381923076.png, C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381932489.png, C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381980024.png"/>
+         <property name="hostName" value="TATASAQ - WENCSVMTATASAQ.prd1.prdroot.net"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.94.132.19"/>
+         <property name="sessionId" value="5c1d3ffc2308bebaa44e46e0e60d56c4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Create Claim" classname="Test Cases/Create Claim" status="PASSED">
+         <system-out><![CDATA[2018-12-21 09:44:52 - [TEST_CASE][PASSED] - Test Cases/Create Claim: Test Cases/Create Claim
+
+2018-12-21 09:44:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-21 09:44:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-21 09:44:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-21 09:44:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-21 09:44:56 - [TEST_STEP][PASSED] - navigateToUrl(DK_URL): Navigate to 'http://10.48.27.56:8085/cc/ClaimCenter.do' successfully
+
+2018-12-21 09:44:57 - [MESSAGE][PASSED] - Navigate to 'http://10.48.27.56:8085/cc/ClaimCenter.do' successfully
+
+2018-12-21 09:44:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-21 09:44:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - comment("Logging into GW"): null
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Login GW"), ["user":userName, "pwd":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Login GW' successfully
+
+2018-12-21 09:44:58 - [TEST_CASE][PASSED] - Test Cases/Reusables/Login GW: Test Cases/Reusables/Login GW
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GW_ClaimCenter/txt_User name"), user): Text 'su' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_User name'
+
+2018-12-21 09:44:58 - [MESSAGE][PASSED] - Text 'su' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_User name'
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Page_GW_ClaimCenter/txt_Password"), pwd): Text '**' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Password'
+
+2018-12-21 09:44:58 - [MESSAGE][PASSED] - Text '**' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Password'
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Log In")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Log In' is clicked on
+
+2018-12-21 09:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Log In' is clicked on
+
+2018-12-21 09:44:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Login GW' successfully
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - comment("Searching For a Policy"): null
+
+2018-12-21 09:44:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Step 1"), ["polNum":polNumber], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Step 1' successfully
+
+2018-12-21 09:44:58 - [TEST_CASE][PASSED] - Test Cases/Reusables/Step 1: Test Cases/Reusables/Step 1
+
+2018-12-21 09:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GW_ClaimCenter/txt_Policy Number"), polNum): Text '8566000260900' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Policy Number'
+
+2018-12-21 09:44:59 - [MESSAGE][PASSED] - Text '8566000260900' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Policy Number'
+
+2018-12-21 09:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Search")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Search' is clicked on
+
+2018-12-21 09:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Search' is clicked on
+
+2018-12-21 09:44:59 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_GW_ClaimCenter/lnk_Select")): NOT_RUN: click(findTestObject("Page_GW_ClaimCenter/lnk_Select"))
+
+2018-12-21 09:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_GW_ClaimCenter/lnk_Select"))
+
+2018-12-21 09:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Date Picker")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Date Picker' is clicked on
+
+2018-12-21 09:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Date Picker' is clicked on
+
+2018-12-21 09:45:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Today")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Today' is clicked on
+
+2018-12-21 09:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Today' is clicked on
+
+2018-12-21 09:45:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Step 1' successfully
+
+2018-12-21 09:45:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2018-12-21 09:45:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381902801.png]]
+
+2018-12-21 09:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Step 2"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Step 2' successfully
+
+2018-12-21 09:45:03 - [TEST_CASE][PASSED] - Test Cases/Reusables/Step 2: Test Cases/Reusables/Step 2
+
+2018-12-21 09:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_New Person Entry")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person Entry' is clicked on
+
+2018-12-21 09:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person Entry' is clicked on
+
+2018-12-21 09:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_New Person")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person' is clicked on
+
+2018-12-21 09:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person' is clicked on
+
+2018-12-21 09:45:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GW_ClaimCenter/txt_Last Name"), "Test Name"): Text 'Test Name' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Last Name'
+
+2018-12-21 09:45:06 - [MESSAGE][PASSED] - Text 'Test Name' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Last Name'
+
+2018-12-21 09:45:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Update")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Update' is clicked on
+
+2018-12-21 09:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Update' is clicked on
+
+2018-12-21 09:45:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Step 2' successfully
+
+2018-12-21 09:45:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Step 3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Step 3' successfully
+
+2018-12-21 09:45:08 - [TEST_CASE][PASSED] - Test Cases/Reusables/Step 3: Test Cases/Reusables/Step 3
+
+2018-12-21 09:45:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Close")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Close' is clicked on
+
+2018-12-21 09:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Close' is clicked on
+
+2018-12-21 09:45:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Loss Cause")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Loss Cause' is clicked on
+
+2018-12-21 09:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Loss Cause' is clicked on
+
+2018-12-21 09:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Cancellation")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Cancellation' is clicked on
+
+2018-12-21 09:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Cancellation' is clicked on
+
+2018-12-21 09:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Reason")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Reason' is clicked on
+
+2018-12-21 09:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Reason' is clicked on
+
+2018-12-21 09:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Illness")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Illness' is clicked on
+
+2018-12-21 09:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Illness' is clicked on
+
+2018-12-21 09:45:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Add Trip")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Add Trip' is clicked on
+
+2018-12-21 09:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Add Trip' is clicked on
+
+2018-12-21 09:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Where")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Where' is clicked on
+
+2018-12-21 09:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Where' is clicked on
+
+2018-12-21 09:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_United States")): Object: 'Object Repository/Page_GW_ClaimCenter/li_United States' is clicked on
+
+2018-12-21 09:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_United States' is clicked on
+
+2018-12-21 09:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Journey Date")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Journey Date' is clicked on
+
+2018-12-21 09:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Journey Date' is clicked on
+
+2018-12-21 09:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Book day")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Book day' is clicked on
+
+2018-12-21 09:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Book day' is clicked on
+
+2018-12-21 09:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_OK")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_OK' is clicked on
+
+2018-12-21 09:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_OK' is clicked on
+
+2018-12-21 09:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Who became ill")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Who became ill' is clicked on
+
+2018-12-21 09:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Who became ill' is clicked on
+
+2018-12-21 09:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Test Name")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Test Name' is clicked on
+
+2018-12-21 09:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Test Name' is clicked on
+
+2018-12-21 09:45:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Relation")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Relation' is clicked on
+
+2018-12-21 09:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Relation' is clicked on
+
+2018-12-21 09:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_SelfInsured")): Object: 'Object Repository/Page_GW_ClaimCenter/li_SelfInsured' is clicked on
+
+2018-12-21 09:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_SelfInsured' is clicked on
+
+2018-12-21 09:45:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/radio_Yes")): Object: 'Object Repository/Page_GW_ClaimCenter/radio_Yes' is clicked on
+
+2018-12-21 09:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/radio_Yes' is clicked on
+
+2018-12-21 09:45:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Step 3' successfully
+
+2018-12-21 09:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:19 - [TEST_STEP][PASSED] - comment("Clicking on Finish button to create a claim"): null
+
+2018-12-21 09:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Claimant")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Claimant' is clicked on
+
+2018-12-21 09:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Claimant' is clicked on
+
+2018-12-21 09:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Test Name")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Test Name' is clicked on
+
+2018-12-21 09:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Test Name' is clicked on
+
+2018-12-21 09:45:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Finish")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Finish' is clicked on
+
+2018-12-21 09:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Finish' is clicked on
+
+2018-12-21 09:45:20 - [TEST_STEP][PASSED] - getText(findTestObject("Page_GW_ClaimCenter/label_Claim Created")): Text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' is: 'Claim D0000004 has been successfully saved.'
+
+2018-12-21 09:45:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' is: 'Claim D0000004 has been successfully saved.'
+
+2018-12-21 09:45:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2018-12-21 09:45:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381923076.png]]
+
+2018-12-21 09:45:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-21 09:45:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Claim - Negative" classname="Test Cases/Create Claim - Negative" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create Claim - Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-21 09:45:26 - [TEST_CASE][FAILED] - Test Cases/Create Claim - Negative: Test Cases/Create Claim - Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)
+
+
+2018-12-21 09:45:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-21 09:45:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-21 09:45:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-21 09:45:27 - [TEST_STEP][PASSED] - navigateToUrl(DK_URL): Navigate to 'http://10.48.27.56:8085/cc/ClaimCenter.do' successfully
+
+2018-12-21 09:45:29 - [MESSAGE][PASSED] - Navigate to 'http://10.48.27.56:8085/cc/ClaimCenter.do' successfully
+
+2018-12-21 09:45:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-21 09:45:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-21 09:45:29 - [TEST_STEP][PASSED] - comment("Logging into GW"): null
+
+2018-12-21 09:45:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Login GW"), ["user":userName, "pwd":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Login GW' successfully
+
+2018-12-21 09:45:29 - [TEST_CASE][PASSED] - Test Cases/Reusables/Login GW: Test Cases/Reusables/Login GW
+
+2018-12-21 09:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GW_ClaimCenter/txt_User name"), user): Text 'su' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_User name'
+
+2018-12-21 09:45:30 - [MESSAGE][PASSED] - Text 'su' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_User name'
+
+2018-12-21 09:45:30 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Page_GW_ClaimCenter/txt_Password"), pwd): Text '**' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Password'
+
+2018-12-21 09:45:30 - [MESSAGE][PASSED] - Text '**' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Password'
+
+2018-12-21 09:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Log In")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Log In' is clicked on
+
+2018-12-21 09:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Log In' is clicked on
+
+2018-12-21 09:45:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Login GW' successfully
+
+2018-12-21 09:45:30 - [TEST_STEP][PASSED] - comment("Searching For a Policy"): null
+
+2018-12-21 09:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Step 1"), ["polNum":polNumber], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Step 1' successfully
+
+2018-12-21 09:45:30 - [TEST_CASE][PASSED] - Test Cases/Reusables/Step 1: Test Cases/Reusables/Step 1
+
+2018-12-21 09:45:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GW_ClaimCenter/txt_Policy Number"), polNum): Text '8566000260900' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Policy Number'
+
+2018-12-21 09:45:31 - [MESSAGE][PASSED] - Text '8566000260900' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Policy Number'
+
+2018-12-21 09:45:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Search")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Search' is clicked on
+
+2018-12-21 09:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Search' is clicked on
+
+2018-12-21 09:45:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_GW_ClaimCenter/lnk_Select")): NOT_RUN: click(findTestObject("Page_GW_ClaimCenter/lnk_Select"))
+
+2018-12-21 09:45:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_GW_ClaimCenter/lnk_Select"))
+
+2018-12-21 09:45:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Date Picker")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Date Picker' is clicked on
+
+2018-12-21 09:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Date Picker' is clicked on
+
+2018-12-21 09:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Today")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Today' is clicked on
+
+2018-12-21 09:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Today' is clicked on
+
+2018-12-21 09:45:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Step 1' successfully
+
+2018-12-21 09:45:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2018-12-21 09:45:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381932489.png]]
+
+2018-12-21 09:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Step 2"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Step 2' successfully
+
+2018-12-21 09:45:33 - [TEST_CASE][PASSED] - Test Cases/Reusables/Step 2: Test Cases/Reusables/Step 2
+
+2018-12-21 09:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_New Person Entry")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person Entry' is clicked on
+
+2018-12-21 09:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person Entry' is clicked on
+
+2018-12-21 09:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_New Person")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person' is clicked on
+
+2018-12-21 09:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_New Person' is clicked on
+
+2018-12-21 09:45:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GW_ClaimCenter/txt_Last Name"), "Test Name"): Text 'Test Name' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Last Name'
+
+2018-12-21 09:45:36 - [MESSAGE][PASSED] - Text 'Test Name' is set on object 'Object Repository/Page_GW_ClaimCenter/txt_Last Name'
+
+2018-12-21 09:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Update")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Update' is clicked on
+
+2018-12-21 09:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Update' is clicked on
+
+2018-12-21 09:45:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Step 2' successfully
+
+2018-12-21 09:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusables/Step 3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusables/Step 3' successfully
+
+2018-12-21 09:45:37 - [TEST_CASE][PASSED] - Test Cases/Reusables/Step 3: Test Cases/Reusables/Step 3
+
+2018-12-21 09:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Close")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Close' is clicked on
+
+2018-12-21 09:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Close' is clicked on
+
+2018-12-21 09:45:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Loss Cause")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Loss Cause' is clicked on
+
+2018-12-21 09:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Loss Cause' is clicked on
+
+2018-12-21 09:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Cancellation")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Cancellation' is clicked on
+
+2018-12-21 09:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Cancellation' is clicked on
+
+2018-12-21 09:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Reason")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Reason' is clicked on
+
+2018-12-21 09:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Reason' is clicked on
+
+2018-12-21 09:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Illness")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Illness' is clicked on
+
+2018-12-21 09:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Illness' is clicked on
+
+2018-12-21 09:45:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Add Trip")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Add Trip' is clicked on
+
+2018-12-21 09:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Add Trip' is clicked on
+
+2018-12-21 09:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Where")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Where' is clicked on
+
+2018-12-21 09:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Where' is clicked on
+
+2018-12-21 09:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_United States")): Object: 'Object Repository/Page_GW_ClaimCenter/li_United States' is clicked on
+
+2018-12-21 09:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_United States' is clicked on
+
+2018-12-21 09:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Journey Date")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Journey Date' is clicked on
+
+2018-12-21 09:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Journey Date' is clicked on
+
+2018-12-21 09:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/lnk_Book day")): Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Book day' is clicked on
+
+2018-12-21 09:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/lnk_Book day' is clicked on
+
+2018-12-21 09:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_OK")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_OK' is clicked on
+
+2018-12-21 09:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_OK' is clicked on
+
+2018-12-21 09:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Who became ill")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Who became ill' is clicked on
+
+2018-12-21 09:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Who became ill' is clicked on
+
+2018-12-21 09:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_Test Name")): Object: 'Object Repository/Page_GW_ClaimCenter/li_Test Name' is clicked on
+
+2018-12-21 09:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_Test Name' is clicked on
+
+2018-12-21 09:45:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/dd_Relation")): Object: 'Object Repository/Page_GW_ClaimCenter/dd_Relation' is clicked on
+
+2018-12-21 09:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/dd_Relation' is clicked on
+
+2018-12-21 09:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/li_SelfInsured")): Object: 'Object Repository/Page_GW_ClaimCenter/li_SelfInsured' is clicked on
+
+2018-12-21 09:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/li_SelfInsured' is clicked on
+
+2018-12-21 09:45:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/radio_Yes")): Object: 'Object Repository/Page_GW_ClaimCenter/radio_Yes' is clicked on
+
+2018-12-21 09:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/radio_Yes' is clicked on
+
+2018-12-21 09:45:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusables/Step 3' successfully
+
+2018-12-21 09:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Next")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Next' is clicked on
+
+2018-12-21 09:45:48 - [TEST_STEP][PASSED] - comment("Clicking on Finish button to create a claim"): null
+
+2018-12-21 09:45:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-21 09:45:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-21 09:45:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_GW_ClaimCenter/bt_Finish")): Object: 'Object Repository/Page_GW_ClaimCenter/bt_Finish' is clicked on
+
+2018-12-21 09:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GW_ClaimCenter/bt_Finish' is clicked on
+
+2018-12-21 09:45:49 - [TEST_STEP][FAILED] - getText(findTestObject("Page_GW_ClaimCenter/label_Claim Created")): getText(findTestObject("Page_GW_ClaimCenter/label_Claim Created")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)
+
+
+2018-12-21 09:46:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-21 09:46:20 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+[[ATTACHMENT|C:\\Katalon\\Test Automation\\Claim Center\\Reports\\Claim Suite\\20181221_094450\\1545381980024.png]]
+
+2018-12-21 09:46:20 - [MESSAGE][FAILED] - getText(findTestObject("Page_GW_ClaimCenter/label_Claim Created")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-21 09:45:26 - [TEST_CASE][FAILED] - Test Cases/Create Claim - Negative: Test Cases/Create Claim - Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-21 09:44:52 - [TEST_SUITE][FAILED] - Claim Suite: Test Cases/Create Claim - Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-21 09:44:52 - [TEST_SUITE][FAILED] - Claim Suite: Test Cases/Create Claim - Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GW_ClaimCenter/label_Claim Created' located by 'By.xpath: //label[@id = 'NewClaimSaved:NewClaimSavedScreen:NewClaimSavedDV:Header']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at Create Claim - Negative.run(Create Claim - Negative:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545381890552.run(TempTestSuite1545381890552.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

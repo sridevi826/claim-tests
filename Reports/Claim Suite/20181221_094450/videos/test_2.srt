@@ -1,0 +1,208 @@
+1
+00:00:00,207 --> 00:00:00,207
+1. openBrowser("")
+
+2
+00:00:01,467 --> 00:00:01,468
+5. navigateToUrl(DK_URL)
+
+3
+00:00:03,544 --> 00:00:03,557
+9. maximizeWindow()
+
+4
+00:00:03,713 --> 00:00:03,714
+13. comment("Logging into GW")
+
+5
+00:00:03,715 --> 00:00:03,715
+17. callTestCase(findTestCase("Reusables/Login GW"), ["user":userName, "pwd":password], STOP_ON_FAILURE)
+
+6
+00:00:03,782 --> 00:00:03,783
+1. setText(findTestObject("Page_GW_ClaimCenter/txt_User name"), user)
+
+7
+00:00:03,944 --> 00:00:03,945
+5. setMaskedText(findTestObject("Page_GW_ClaimCenter/txt_Password"), pwd)
+
+8
+00:00:04,067 --> 00:00:04,068
+9. click(findTestObject("Page_GW_ClaimCenter/bt_Log In"))
+
+9
+00:00:04,182 --> 00:00:04,183
+21. comment("Searching For a Policy")
+
+10
+00:00:04,184 --> 00:00:04,186
+25. callTestCase(findTestCase("Reusables/Step 1"), ["polNum":polNumber], STOP_ON_FAILURE)
+
+11
+00:00:04,259 --> 00:00:04,259
+1. setText(findTestObject("Page_GW_ClaimCenter/txt_Policy Number"), polNum)
+
+12
+00:00:05,301 --> 00:00:05,301
+5. click(findTestObject("Page_GW_ClaimCenter/lnk_Search"))
+
+13
+00:00:05,421 --> 00:00:05,422
+9. click(findTestObject("Page_GW_ClaimCenter/lnk_Select"))
+
+14
+00:00:05,423 --> 00:00:05,424
+13. click(findTestObject("Page_GW_ClaimCenter/lnk_Date Picker"))
+
+15
+00:00:06,229 --> 00:00:06,230
+17. click(findTestObject("Page_GW_ClaimCenter/lnk_Today"))
+
+16
+00:00:06,336 --> 00:00:06,336
+29. takeScreenshot()
+
+17
+00:00:06,732 --> 00:00:06,733
+33. click(findTestObject("Page_GW_ClaimCenter/bt_Next"))
+
+18
+00:00:06,881 --> 00:00:06,883
+37. callTestCase(findTestCase("Reusables/Step 2"), [:], STOP_ON_FAILURE)
+
+19
+00:00:06,947 --> 00:00:06,947
+1. click(findTestObject("Page_GW_ClaimCenter/lnk_New Person Entry"))
+
+20
+00:00:09,117 --> 00:00:09,118
+5. click(findTestObject("Page_GW_ClaimCenter/lnk_New Person"))
+
+21
+00:00:09,210 --> 00:00:09,210
+9. setText(findTestObject("Page_GW_ClaimCenter/txt_Last Name"), "Test Name")
+
+22
+00:00:09,988 --> 00:00:09,988
+13. click(findTestObject("Page_GW_ClaimCenter/bt_Update"))
+
+23
+00:00:10,107 --> 00:00:10,108
+41. click(findTestObject("Page_GW_ClaimCenter/bt_Next"))
+
+24
+00:00:11,771 --> 00:00:11,771
+45. callTestCase(findTestCase("Reusables/Step 3"), [:], STOP_ON_FAILURE)
+
+25
+00:00:11,842 --> 00:00:11,842
+1. click(findTestObject("Page_GW_ClaimCenter/lnk_Close"))
+
+26
+00:00:12,454 --> 00:00:12,454
+5. delay(1)
+
+27
+00:00:13,457 --> 00:00:13,458
+9. click(findTestObject("Page_GW_ClaimCenter/dd_Loss Cause"))
+
+28
+00:00:13,573 --> 00:00:13,574
+13. click(findTestObject("Page_GW_ClaimCenter/li_Cancellation"))
+
+29
+00:00:13,670 --> 00:00:13,670
+17. click(findTestObject("Page_GW_ClaimCenter/dd_Reason"))
+
+30
+00:00:14,287 --> 00:00:14,287
+21. click(findTestObject("Page_GW_ClaimCenter/li_Illness"))
+
+31
+00:00:14,388 --> 00:00:14,388
+25. delay(1)
+
+32
+00:00:15,390 --> 00:00:15,391
+29. click(findTestObject("Page_GW_ClaimCenter/lnk_Add Trip"))
+
+33
+00:00:15,518 --> 00:00:15,518
+33. click(findTestObject("Page_GW_ClaimCenter/dd_Where"))
+
+34
+00:00:16,163 --> 00:00:16,164
+37. click(findTestObject("Page_GW_ClaimCenter/li_United States"))
+
+35
+00:00:16,264 --> 00:00:16,266
+41. click(findTestObject("Page_GW_ClaimCenter/dd_Journey Date"))
+
+36
+00:00:16,371 --> 00:00:16,372
+45. click(findTestObject("Page_GW_ClaimCenter/lnk_Book day"))
+
+37
+00:00:16,455 --> 00:00:16,455
+49. click(findTestObject("Page_GW_ClaimCenter/bt_OK"))
+
+38
+00:00:16,587 --> 00:00:16,588
+53. click(findTestObject("Page_GW_ClaimCenter/dd_Who became ill"))
+
+39
+00:00:17,218 --> 00:00:17,219
+57. click(findTestObject("Page_GW_ClaimCenter/li_Test Name"))
+
+40
+00:00:17,307 --> 00:00:17,308
+61. delay(1)
+
+41
+00:00:18,311 --> 00:00:18,312
+65. click(findTestObject("Page_GW_ClaimCenter/dd_Relation"))
+
+42
+00:00:18,438 --> 00:00:18,439
+69. click(findTestObject("Page_GW_ClaimCenter/li_SelfInsured"))
+
+43
+00:00:18,532 --> 00:00:18,532
+73. delay(1)
+
+44
+00:00:19,535 --> 00:00:19,536
+77. click(findTestObject("Page_GW_ClaimCenter/radio_Yes"))
+
+45
+00:00:19,643 --> 00:00:19,643
+81. delay(1)
+
+46
+00:00:20,647 --> 00:00:20,647
+49. click(findTestObject("Page_GW_ClaimCenter/bt_Next"))
+
+47
+00:00:20,753 --> 00:00:20,753
+53. delay(1)
+
+48
+00:00:21,755 --> 00:00:21,756
+57. click(findTestObject("Page_GW_ClaimCenter/bt_Next"))
+
+49
+00:00:21,849 --> 00:00:21,850
+61. comment("Clicking on Finish button to create a claim")
+
+50
+00:00:21,851 --> 00:00:21,852
+65. delay(1)
+
+51
+00:00:22,853 --> 00:00:22,854
+69. click(findTestObject("Page_GW_ClaimCenter/bt_Finish"))
+
+52
+00:00:22,970 --> 00:00:22,971
+73. getText(findTestObject("Page_GW_ClaimCenter/label_Claim Created"))
+
